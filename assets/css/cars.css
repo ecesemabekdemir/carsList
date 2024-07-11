@@ -1,0 +1,94 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  background-color: #e0f1e8;
+  margin: 0 auto;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 30px;
+  margin-inline: 150px;
+  margin-block: 150px;
+}
+
+.container h1 {
+  font-size: 60px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #006989;
+  margin-bottom: 100px;
+}
+
+table {
+  margin: 0 auto;
+  padding-block: 25px;
+}
+table tr {
+  border: 1px solid #bbb;
+  font-weight: 400;
+
+}
+
+table th {
+  color: #E88D67;
+}
+
+table td {
+  width: 350px;
+  color: #005C78;
+  padding: 22px 15px;
+  text-align: left;
+}
+
+
+table td:hover {
+  background-color: #E88D67;
+  padding: 12px 15px;
+  text-align: center;
+}
+
+
+.tableContainer {
+  width: 100%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
